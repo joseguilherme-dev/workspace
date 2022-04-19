@@ -15,6 +15,3 @@ sudo apt-get update
 
 # Install docker and docker-compose
 sudo apt-get -y install docker-ce docker-compose
-
-# Add user to docker group (so it's needed to use `sudo` everytime you use docker)
-sudo usermod -aG docker $USER
